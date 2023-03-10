@@ -1,0 +1,166 @@
+::-webkit-scrollbar {
+    width: 6px;
+}
+::-webkit-scrollbar-track {
+    background: #f1f1f1; 
+    border-radius: 10px;
+}
+::-webkit-scrollbar-thumb {
+    background: #888; 
+    border-radius: 10px;
+    height: 30%;
+}
+::-webkit-scrollbar-thumb:hover {
+    background: rgb(85, 85, 85); 
+}
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+html{
+    font-size: 62.5%;
+}
+header{
+    height: 12vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #ea6016;
+}
+
+ul{
+    list-style: none;
+}
+.logo{
+    width: 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.logo img{
+    display: block;
+    width: 50%;
+    border-radius: 50%;
+}
+.search_box{
+    width: 70%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.search{
+    width: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.search input{
+    width: 80%;
+    height: 37px;
+    border: 0;
+    text-indent: 2rem;
+    border-radius: 2rem 0 0 2rem;
+}
+.search input:focus{
+    outline: none;
+}
+.search button{
+    width: 20%;
+    height: 37px;
+    border: 0;
+    background-color: #d44e06;
+    color: white;
+    cursor: pointer;
+    border-radius: 0 2rem 2rem 0;
+}
+.user{
+    width: 10%;
+}
+.user div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 6rem;
+    padding: 1.5rem;
+    transition: all 0.4s;
+    border-radius: 50%;
+}
+.user div:hover{
+    background-color: #d44e06;
+}
+.user i{
+    color: white;
+    font-size: 3rem;
+    cursor: pointer;
+}
+.buyer{
+    width: 10%;
+}
+.buyer .buyer_icon{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 6rem;
+    padding: 1.5rem;
+    transition: all 0.4s;
+    border-radius: 50%;
+}
+.buyer .buyer_icon:hover{
+    background-color: #d44e06;
+}
+.buyer i{
+    position: relative;
+    color: white;
+    font-size: 3rem;
+    cursor: pointer;
+}
+.buyer i div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1rem;
+    background-color: black;
+    width: 2rem;
+    height: 2rem;
+    text-align: center;
+    border-radius: 50%;
+    position: absolute;
+    top: -1rem;
+    right: -1rem;
+}
+.all_product h1{
+    font-size: 3rem;
+}
+
+.all_product{
+    display: flex;
+    justify-content: space-around;
+}
+caption{
+    margin: 3rem;
+}
+table{
+    width: 80%;
+    text-align: center;
+    border-collapse: collapse;
+    border-spacing: 50px;
+}
+th{
+    font-size: 2rem;
+    border: 1px solid #888;
+    height: 4rem;
+    font-weight: normal;
+}
+tr input{
+    text-align: center;
+    height: 100%;
+    width: 100%;
+}
+.trash_icon{
+    cursor: pointer;
+}
+.bold_items{
+    font-weight: bold;
+}

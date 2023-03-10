@@ -1,0 +1,128 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+html{
+    font-size: 62.5%;
+}
+.box{
+    height: 100vh;
+    background-image: url('https://wallpapertag.com/wallpaper/full/f/6/8/566375-amazing-most-beautiful-wallpapers-of-2018-1920x1080.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* opacity: 0.8; */
+}
+ul{
+    list-style: none;
+}
+.box header a{
+    text-decoration: none;
+    color: white;
+}
+.box header{
+    height: 12vh;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    background-color: #ea6016;
+}
+.logo{
+    width: 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.logo img{
+    display: block;
+    width: 50%;
+    border-radius: 50%;
+}
+
+.main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container{
+    border-radius: 2rem;
+    display: flex;
+    height: 70vh;
+    margin-top: 5%;
+    justify-content: center;
+    /* background-color: antiquewhite; */
+}
+.signin{
+    color: white;
+    text-align: center;
+    padding: 1rem;
+    border-radius: 2rem 0 0 2rem;
+    background-color: rgba(32, 32, 32, 0.8);
+}
+h1{
+    font-size: 3rem;
+}
+.connect_with_gg{
+    margin: 1rem;
+}
+.connect_with_gg img{
+    width: 3rem;
+    margin: 1rem;
+    cursor: pointer;
+}
+.form input{
+    display: block;
+    width: 30rem;
+    height: 3.5rem;
+    border: 0;
+    margin: 2rem;
+    text-indent: 2rem;
+    border-radius: 1rem;
+}
+.main p{
+    font-size: 2rem;
+    margin: 1rem;
+}
+.form input:focus{
+    outline-style: none;
+}
+.signin a{
+    display: block;
+    margin: 1rem;
+    font-size: 2rem;
+    color: white;
+}
+.main button{
+    width: 10rem;
+    height: 4rem;
+    border-radius: 1rem;
+    border: 0;
+    cursor: pointer;
+    background: #ea6016;
+    color: white;
+}
+
+.signup{
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    border-radius: 0 2rem 2rem 0;
+    padding: 1rem;
+    background-color: rgba(44, 27, 27, 0.37);
+}
+.signup div h2{
+    font-size: 3rem;
+    margin: 1rem;
+}
+.signup div p{
+    font-size: 2rem;
+    margin: 2rem;
+}
+.signup a{
+    text-decoration: none;
+    margin: 1rem;
+    color: white;
+}
